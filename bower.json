@@ -1,9 +1,9 @@
 {
-  "name": "skeleton-starter-kit",
-  "description": "Skeleton Build Starter Kit",
+  "name": "vividhsv.com",
+  "description": "Personal Web Site",
   "main": "index.js",
   "authors": [
-    "Vividh S Viswanatha <vividhsv@gmail.com>"
+    "Vividh S Viswanatha"
   ],
   "license": "ISC",
   "homepage": "",
