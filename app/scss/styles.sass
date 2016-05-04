@@ -1,0 +1,47 @@
+@import bourbon
+
+$main-color: #73c990
+$sub-color: #abb2bf
+$small-color: #e06c75
+$hover-color: #d19a66
+
+html, body
+  height: 100%
+  background-color: #21252b
+
+a
+  text-decoration: none
+
+.column
+  display: flex
+  height: 20vh
+  align-items: center
+  justify-content: center
+
+.main-heading, i
+  color: $main-color
+
+.sub-heading
+  color: $sub-color
+  text-align: left
+
+.small-heading
+  color: $small-color
+  text-align: center
+  &:hover
+    color: $hover-color
+
+.hero
+  height: 60vh
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.social
+  margin-left: 10%
+  margin-right: 10%
+
+.fa
+  &:hover
+    color: $hover-color

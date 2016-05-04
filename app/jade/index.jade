@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  head
+    
+  // Basic Page Needs
+  meta(charset="UTF-8")
+  title Vividh S Viswanatha
+  meta(name="description" content="Vividh portfolio")
+  meta(name="author" cotent="Vividh S Viswanatha")
+    
+  // Mobile Specific Metas 
+  meta(name ="viewport" content="width=device-width, initial-scale=1")
+    
+  // Font 
+  link( href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css")
+    
+  // css 
+  //build:css css/main.min.css
+  link(rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css")
+  link(rel="stylesheet" href="lib/skeleton/css/normalize.css")
+  link(rel="stylesheet" href="lib/skeleton/css/skeleton.css")
+  link(rel="stylesheet" href="css/styles.css")
+  //endbuild
+    
+  // Favicon 
+  
+  link(rel="icon" type="image/png" href="images/favicon.png")
+    
+body
+  // Primary Page Layout 
+  .container
+    .row
+      .column.hero
+        h1.main-heading Vividh S Viswanatha
+        h5.sub-heading // Full Stack Developer. I love design, development and everything in between.
+        
+    .row
+      .column
+         a.social(href="https://github.com/vividhsv" target="_blank"): i(class="fa fa-github fa-3x" aria-hidden="true")
+         a.social(href="https://www.linkedin.com/in/vividhsv" target="_blank"): i(class="fa fa-linkedin-square fa-3x" aria-hidden="true")
+         a.social(href="https://facebook.com/vividhsv" target="_blank"): i(class="fa fa-facebook-square fa-3x" aria-hidden="true")
+    .row
+      div(class="one-third column")
+        a(href="http://resume.vividhsv.com"): h4.small-heading # Resume
+      div(class="one-third column")
+        h4.small-heading # Projects
+      div(class="one-third column")
+        a(href="http://blog.vividhsv.com"): h4.small-heading # Blog
+        
+// End Document

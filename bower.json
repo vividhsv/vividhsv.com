@@ -1,0 +1,22 @@
+{
+  "name": "skeleton-starter-kit",
+  "description": "Skeleton Build Starter Kit",
+  "main": "index.js",
+  "authors": [
+    "Vividh S Viswanatha <vividhsv@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "^2.0.4",
+    "font-awesome": "^4.6.1"
+  }
+}
