@@ -107,8 +107,8 @@ gulp.task('html', function(){
 
 // Build Task
 gulp.task('build', function (callback) {
-  runSequence('clean:dist', 'copy', 'font-awesome' ,
-    ['sass', 'jade','useref', 'images', 'fonts'],
+  runSequence('clean:dist', 'copy', 'font-awesome' , ['sass', 'jade'],
+    ['useref', 'images', 'fonts'],
     callback
   )
 })
